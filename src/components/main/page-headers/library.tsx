@@ -7,7 +7,7 @@ const Library = () => {
             <button
                 className={'buttons'}
             >
-                <Image width={326} height={108} src={'/bg_library.svg'} alt={''} loading={'eager'}/>
+                <Image width={326} height={108} src={'/icons/bg_library.svg'} alt={''} loading={'eager'}/>
                 <p>
                     <Image width={44} height={44} src={'/icons/books.svg'} alt={'sad'}/>
                     Library
