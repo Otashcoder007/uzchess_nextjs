@@ -1,4 +1,4 @@
-import {SignIn} from "@/components/shared/header/right-side/SignIn";
+import {SignUpButton} from "@/components/shared/header/right-side/SignUpButton";
 import {Icons} from "@/components/shared/header/right-side/icons";
 import Divider from "@/components/shared/header/divider";
 
@@ -7,7 +7,7 @@ export const RightSide = () => {
         <div className={'flex items-center gap-5'}>
             <Icons/>
             <Divider/>
-            <SignIn/>
+            <SignUpButton/>
         </div>
     )
 }

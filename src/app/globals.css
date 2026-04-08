@@ -11,12 +11,15 @@
     --green: #82CC27;
     --yellow: #E0B531;
     --red: #DC2D2D;
-    --secondary: #6C6F70;
+    --secondary: #9DA1A3;
     --divider: #3D4549;
     --langHover: #25282A;
     --bgMatte: rgba(12, 14, 15, 0.94);
     --border: rgba(247, 249, 250, 0.16);
+    --borderStroke: rgba(247, 249, 250, 0.08);
+    --blur: rgba(247, 249, 250, 0.1);
     --stroke: #232627;
+    --bgBack: #30373B;
 }
 
 * {
@@ -131,5 +134,13 @@ main {
 
         font-size: 20px;
         font-weight: 600;
+    }
+}
+
+.tabs {
+    button {
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

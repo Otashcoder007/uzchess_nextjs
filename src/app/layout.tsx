@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/shared/header/Header";
 import Footer from "@/components/shared/footer/Footer";
+import React from "react";
 
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode; }>) {
     return (
